@@ -1,8 +1,11 @@
+/* Styling to whole page to prevent unnecessary margins or padding */
 body {
     margin: 0;
     padding: 0;
+    width: 100%;
 }
 
+/* Styling for the header of the page */
 header {
     background-color:#000033;
     margin: 0;
@@ -28,7 +31,7 @@ nav {
     justify-content: center;
     align-items: center;
     width: 25%;
-    font-size: 253%;
+    font-size: 2em;
     margin: 10px 0px 10px 0px;
     font-weight: bold;
     padding-left: 50px;
@@ -39,10 +42,42 @@ nav {
     padding-bottom: 5px;
     list-style-type: none;
     border-bottom: 3px #4dd2ff solid;
-    font-size: 130%;
+    font-size: 1.5em;
 }
 
 .links a {
     text-decoration: none;
     color:#4dd2ff;
+}
+
+/* Styling for banner image and self image underneath the navigation bar */
+
+#banner {
+    width: 100%;
+    height: 30vh;
+}
+
+.self-image-and-banner-section {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+#self-picture {
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    margin-top: -210px;
+}
+
+.self-image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Styling for main sections of the page (about me, Work, Contact Me, etc.) */
+
+.about-me {
+    height: 30vh;
 }
