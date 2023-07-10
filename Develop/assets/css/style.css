@@ -151,11 +151,7 @@ padding-right: 25px;
     font-size: 60%;
 }
 
-.joke-teller-overlay {
-    padding-right: 50px;
-}
-
-.quote-generator-overlay {
+.joke-teller-overlay, .quote-generator-overlay, .weatherapi-overlay {
     padding-right: 50px;
 }
 
@@ -231,7 +227,7 @@ padding-right: 25px;
 /* Media Queries */
 
 @media screen and (max-width: 1000px){
-    .joke-teller-overlay, .links, .contact-me-items, .about-me-description, .about-me-title, .work-history-title, .contact-me-title, .name-block {
+    .text-overlay, .joke-teller-overlay, .links, .contact-me-items, .about-me-description, .about-me-title, .work-history-title, .contact-me-title, .name-block {
       font-size: .8em;
     }
 }
@@ -250,7 +246,7 @@ padding-right: 25px;
 }
 
 @media screen and (max-width: 600px){
-    .joke-teller-overlay, .links, .contact-me-items, .about-me-description, .about-me-title, .work-history-title, .contact-me-title, .name-block {
+    .text-overlay, .joke-teller-overlay, .links, .contact-me-items, .about-me-description, .about-me-title, .work-history-title, .contact-me-title, .name-block {
       font-size: .6em;
     }
 }
@@ -268,8 +264,21 @@ padding-right: 25px;
     }
 }
 
+@media screen and (max-width: 600px) {
+    .about-me, .work-history, .contact-me {
+        margin: 40px 15px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+.about-me-description, .work-history-projects, .contact-me-description {
+    margin-left: 15px;
+    font-weight: bold;
+}
+}
+
 @media screen and (max-width: 420px){
-    .joke-teller-overlay, .links, .contact-me-items, .about-me-description, .about-me-title, .work-history-title, .contact-me-title {
+    .text-overlay, .joke-teller-overlay, .links, .contact-me-items, .about-me-description, .about-me-title, .work-history-title, .contact-me-title {
       font-size: .3em;
     }
 }
