@@ -58,11 +58,6 @@ nav {
     height: 30vh;
 }
 
-.self-image-and-banner-section {
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-}
 #self-picture {
     border-radius: 100%;
     width: 150px;
@@ -79,14 +74,18 @@ nav {
 
 /* Styling for main sections of the page (about me, Work, Contact Me, etc.) */
 
-.about-me, .work-history {
+.about-me, .work-history, .contact-me {
     height: 30vh;
     display: flex;
     margin: 40px 50px;
     color: #47476b;
 }
 
-.about-me-title, .work-history-title {
+.work-history {
+    height: 140vh;
+}
+
+.about-me-title, .work-history-title, .contact-me-title {
 display: flex;
 flex-wrap: wrap;
 height: 158px;
@@ -101,7 +100,7 @@ padding-right: 25px;
     padding-left: 13px;
 }
 
-.about-me-description, .work-history-projects {
+.about-me-description, .work-history-projects, .contact-me-title {
     margin-left: 35px;
     font-weight: bold;
 }
@@ -131,5 +130,26 @@ padding-right: 25px;
 .project2-img, .project3-img, .project4-img, .project5-img {
     width: 100%;
     height: 300px;
+    filter: grayscale(70%);
     border: solid 5px #4dd2ff;
+}
+
+.project1-img:hover {
+    filter: grayscale(0%);
+}
+
+.project2-img:hover {
+    filter: grayscale(0%);
+}
+
+.project3-img:hover {
+    filter: grayscale(0%);
+}
+
+.project4-img:hover {
+    filter: grayscale(0%);
+}
+
+.project5-img:hover {
+    filter: grayscale(0%);
 }
