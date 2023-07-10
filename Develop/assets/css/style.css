@@ -120,6 +120,41 @@ padding-right: 25px;
     font-weight: bold;
 }
 
+.image-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.text-overlay {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 12%;
+    height: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items:flex-start;
+    flex-direction: column;
+    background-color:  #4dd2ff;
+    padding-left: 40px;
+    padding-right: 10px;
+}
+
+.text-overlay h6 {
+    margin: 5px 0px;    
+   }
+   
+.text-overlay p {
+    margin: 5px 0px;
+    font-size: 60%;
+}
+
+.joke-teller-overlay {
+    padding-right: 50px;
+}
+
 .about-me-description {
     padding-left: 5px;
 }
@@ -179,7 +214,6 @@ padding-right: 25px;
 
 .contact-me-items {
     display: flex;
-    /* justify-content: space-between; */
     align-items:flex-end;
 }
 
@@ -188,4 +222,76 @@ padding-right: 25px;
     list-style-type: none;
     border-bottom: 3px #47476b solid;
     font-size: 1em;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1000px){
+    .joke-teller-overlay, .links, .contact-me-items, .about-me-description, .about-me-title, .work-history-title, .contact-me-title, .name-block {
+      font-size: .8em;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .project2-img, .project3-img, .project4-img, .project5-img {
+      height: 850px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .contact-me-items, .contact-me-items li {
+    margin: 5px;
+    padding: 5px;
+}
+}
+
+@media screen and (max-width: 600px){
+    .joke-teller-overlay, .links, .contact-me-items, .about-me-description, .about-me-title, .work-history-title, .contact-me-title, .name-block {
+      font-size: .6em;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .contact-me-items li {
+      margin: 5px;
+      padding: 5px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .contact-me-description {
+        margin-left: 5px;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .joke-teller-overlay, .links, .contact-me-items, .about-me-description, .about-me-title, .work-history-title, .contact-me-title {
+      font-size: .3em;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .links li {
+      font-size: .3em;
+        margin: 5px;
+        padding-bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .project2-img, .project3-img, .project4-img, .project5-img {
+      height: 200px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .project2-img, .project3-img, .project4-img, .project5-img {
+      height: 100px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .project2-img, .project3-img, .project4-img, .project5-img {
+      height: 100px;
+    }
 }
