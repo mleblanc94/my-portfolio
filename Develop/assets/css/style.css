@@ -233,8 +233,8 @@ padding-right: 25px;
 }
 
 @media screen and (max-width: 1000px){
-    .project2-img, .project3-img, .project4-img, .project5-img {
-      height: 850px;
+    .work-history {
+      height: 760px;
     }
 }
 
@@ -242,6 +242,12 @@ padding-right: 25px;
     .contact-me-items, .contact-me-items li {
     margin: 5px;
     padding: 5px;
+}
+}
+
+@media screen and (max-width: 800px) {
+    .work-history {
+    height: 550px;
 }
 }
 
