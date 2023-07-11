@@ -323,7 +323,18 @@ padding-right: 25px;
 @media screen and (max-width: 620px){
     .joke-teller-overlay, .quote-generator-overlay, .weatherapi-overlay, .basketball-overlay {
       padding-right: 10px;
+      font-size: .5em;
+      margin: 2px 0px 2px 0px;
     }
+}
+@media screen and (max-width: 450) {
+.text-overlay h6 {
+    margin: 2px 0px;    
+   }
+   
+.text-overlay p {
+    margin: 2px 0px;
+}
 }
 
 @media screen and (max-width: 420px){
