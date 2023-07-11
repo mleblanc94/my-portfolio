@@ -363,7 +363,7 @@ padding-right: 18px;
 @media screen and (max-width: 420px){
     .links li {
       font-size: .3em;
-        margin: 2px;
+        margin: 7px;
         padding-bottom: 0px;
     }
 }
@@ -375,12 +375,6 @@ padding-right: 18px;
 }
 
 @media screen and (max-width: 800px){
-    .project2-img, .project3-img, .project4-img, .project5-img {
-      height: 100px;
-    }
-}
-
-@media screen and (max-width: 400px){
     .project2-img, .project3-img, .project4-img, .project5-img {
       height: 100px;
     }
