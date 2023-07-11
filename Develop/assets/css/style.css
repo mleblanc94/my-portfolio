@@ -6,10 +6,6 @@ body {
     background-color: #efeff5;
 }
 
-main {
-    width: 100%;
-}
-
 /* Styling for the header of the page */
 header {
     background-color:#000033;
@@ -286,7 +282,7 @@ padding-right: 18px;
 
 @media screen and (max-width: 600px){
     .contact-me-items li {
-      margin: 5px;
+      margin: 1px;
       padding: 5px;
     }
 }
@@ -324,13 +320,14 @@ padding-right: 18px;
 
 @media screen and (max-width: 420px){
     .text-overlay, .joke-teller-overlay, .links, .contact-me-items, .about-me-description {
-      font-size: .5em;
+      font-size: .7em;
     }
 }
 
 @media screen and (max-width: 420px){
     .about-me-title, .work-history-title, .contact-me-title {
       font-size: 1.7em;
+      padding-right: 5px;
     }
 }
 
@@ -344,7 +341,7 @@ padding-right: 18px;
 
 @media screen and (max-width: 450px) {
     .about-me-title, .work-history-title, .contact-me-title {
-        padding-right: 0px;
+        padding-right: 5px;
         width: 90px;
         font-size: 155%; 
        }
@@ -363,7 +360,7 @@ padding-right: 18px;
 @media screen and (max-width: 420px){
     .links li {
       font-size: .3em;
-        margin: 2px;
+        margin: 7px;
         padding-bottom: 0px;
     }
 }
@@ -375,12 +372,6 @@ padding-right: 18px;
 }
 
 @media screen and (max-width: 800px){
-    .project2-img, .project3-img, .project4-img, .project5-img {
-      height: 100px;
-    }
-}
-
-@media screen and (max-width: 400px){
     .project2-img, .project3-img, .project4-img, .project5-img {
       height: 100px;
     }
