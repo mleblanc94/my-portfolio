@@ -1,8 +1,4 @@
 /* Styling to whole page to prevent unnecessary margins or padding */
-html {
-    width: 100%;
-}
-
 body {
     margin: 0;
     padding: 0;
@@ -130,8 +126,6 @@ padding-right: 25px;
     position: absolute;
     bottom: 20px;
     left: 0;
-    width: 12%;
-    height: 20%;
     display: flex;
     flex-wrap: wrap;
     justify-content:center;
@@ -235,6 +229,24 @@ padding-right: 25px;
 @media screen and (max-width: 1000px){
     .work-history {
       height: 760px;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    .text-overlay {
+        font-size: .6em;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    .text-overlay h6 {
+        margin-bottom: 1px;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    .text-overlay p {
+        margin-top: 1px;
     }
 }
 
