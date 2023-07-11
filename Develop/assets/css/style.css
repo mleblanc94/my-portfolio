@@ -327,6 +327,7 @@ padding-right: 18px;
 @media screen and (max-width: 420px){
     .about-me-title, .work-history-title, .contact-me-title {
       font-size: 1.7em;
+      padding-right: 5px;
     }
 }
 
