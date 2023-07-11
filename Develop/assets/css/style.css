@@ -315,8 +315,14 @@ padding-right: 25px;
 }
 
 @media screen and (max-width: 420px){
-    .text-overlay, .joke-teller-overlay, .links, .contact-me-items, .about-me-description, .about-me-title, .work-history-title, .contact-me-title {
-      font-size: .3em;
+    .text-overlay, .joke-teller-overlay, .links, .contact-me-items, .about-me-description {
+      font-size: .5em;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .about-me-title, .work-history-title, .contact-me-title {
+      font-size: 1.7em;
     }
 }
 
@@ -328,9 +334,11 @@ padding-right: 25px;
     }
 }
 
-@media screen and (max-width: 450) {
-    span {
-        width: 40px;    
+@media screen and (max-width: 450px) {
+    .about-me-title, .work-history-title, .contact-me-title {
+        padding-right: 0px;
+        width: 90px;
+        font-size: 155%; 
        }
     }
 
