@@ -232,7 +232,7 @@ padding-right: 25px;
 /* Media Queries */
 
 @media screen and (max-width: 1000px){
-    .text-overlay, .joke-teller-overlay, .links, .contact-me-items, .about-me-description, .about-me-title, .work-history-title, .contact-me-title, .name-block {
+    .text-overlay, .joke-teller-overlay, .links, .contact-me-items, .about-me-description, .name-block {
       font-size: .8em;
     }
 }
@@ -240,24 +240,6 @@ padding-right: 25px;
 @media screen and (max-width: 1000px){
     .work-history {
       height: 760px;
-    }
-}
-
-@media screen and (max-width: 1020px) {
-    .text-overlay {
-        font-size: .6em;
-    }
-}
-
-@media screen and (max-width: 1020px) {
-    .text-overlay h6 {
-        margin-bottom: 1px;
-    }
-}
-
-@media screen and (max-width: 1020px) {
-    .text-overlay p {
-        margin-top: 1px;
     }
 }
 
@@ -274,10 +256,23 @@ padding-right: 25px;
 }
 }
 
-@media screen and (max-width: 600px){
-    .text-overlay, .joke-teller-overlay, .contact-me-items, .about-me-description, .about-me-title, .work-history-title, .contact-me-title, .name-block {
-      font-size: .6em;
+@media screen and (max-width: 800px) {
+    .text-overlay {
+        padding-left: 10px;
+        padding-right: 50px;
     }
+}
+
+@media screen and (max-width: 600px){
+    .text-overlay, .joke-teller-overlay, .contact-me-items, .about-me-description, .name-block {
+      font-size: .8em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+.about-me-title, .work-history-title, .contact-me-title {
+    font-size: 1.2em;
+}
 }
 
 @media screen and (max-width: 600px){
