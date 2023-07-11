@@ -6,10 +6,6 @@ body {
     background-color: #efeff5;
 }
 
-main {
-    width: 100%;
-}
-
 /* Styling for the header of the page */
 header {
     background-color:#000033;
@@ -286,7 +282,7 @@ padding-right: 18px;
 
 @media screen and (max-width: 600px){
     .contact-me-items li {
-      margin: 5px;
+      margin: 1px;
       padding: 5px;
     }
 }
@@ -324,7 +320,7 @@ padding-right: 18px;
 
 @media screen and (max-width: 420px){
     .text-overlay, .joke-teller-overlay, .links, .contact-me-items, .about-me-description {
-      font-size: .5em;
+      font-size: .7em;
     }
 }
 
@@ -344,7 +340,7 @@ padding-right: 18px;
 
 @media screen and (max-width: 450px) {
     .about-me-title, .work-history-title, .contact-me-title {
-        padding-right: 0px;
+        padding-right: 5px;
         width: 90px;
         font-size: 155%; 
        }
