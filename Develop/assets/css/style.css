@@ -245,8 +245,9 @@ padding-right: 25px;
 
 @media screen and (max-width: 800px) {
     .contact-me-items, .contact-me-items li {
-    margin: 5px;
+    margin: 0px;
     padding: 5px;
+    flex-direction: column;
 }
 }
 
@@ -316,6 +317,12 @@ padding-right: 25px;
 @media screen and (max-width: 420px){
     .text-overlay, .joke-teller-overlay, .links, .contact-me-items, .about-me-description, .about-me-title, .work-history-title, .contact-me-title {
       font-size: .3em;
+    }
+}
+
+@media screen and (max-width: 620px){
+    .joke-teller-overlay, .quote-generator-overlay, .weatherapi-overlay, .basketball-overlay {
+      padding-right: 10px;
     }
 }
 
