@@ -64,7 +64,6 @@ nav {
     width: 150px;
     height: 150px;
     padding: 10px;
-    margin-top: -210px;
 }
 
 .self-image-container {
@@ -103,7 +102,6 @@ span {
 display: flex;
 flex-wrap: wrap;
 height: 158px;
-/* width: 131px; */
 font-size: 2rem;
 font-weight: bold;
 border-right: 5px #47476b solid;
@@ -124,6 +122,12 @@ padding-right: 18px;
     position: relative;
     display: inline-block;
     width: 100%;
+}
+
+.banner-image {
+    background-image: url(../images/banner3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .text-overlay {
@@ -147,6 +151,11 @@ padding-right: 18px;
 .text-overlay p {
     margin: 5px 0px;
     font-size: 60%;
+}
+
+.banner-overlay {
+    bottom: 20px;
+    left: 70%;
 }
 
 .joke-teller-overlay, .quote-generator-overlay, .weatherapi-overlay {
@@ -191,23 +200,7 @@ padding-right: 18px;
     border: solid 5px #4dd2ff;
 }
 
-.project1-img:hover {
-    filter: grayscale(0%);
-}
-
-.project2-img:hover {
-    filter: grayscale(0%);
-}
-
-.project3-img:hover {
-    filter: grayscale(0%);
-}
-
-.project4-img:hover {
-    filter: grayscale(0%);
-}
-
-.project5-img:hover {
+.project1-img:hover, .project2-img:hover, .project3-img:hover, .project4-img:hover, .project5-img:hover {
     filter: grayscale(0%);
 }
 
