@@ -27,6 +27,7 @@ nav {
     display: flex;
     justify-content: flex-end;
     padding-right: 3%;
+    gap: 20px;
 }
 
 .name-block {
@@ -43,7 +44,7 @@ nav {
 }
 
 .links li {
-    margin: 20px;
+    margin: 10px 0px;
     padding-bottom: 5px;
     list-style-type: none;
     border-bottom: 3px #4dd2ff solid;
@@ -78,9 +79,19 @@ nav {
 
 /* Styling for main sections of the page (about me, Work, Contact Me, etc.) */
 
-.about-me, .work-history, .contact-me {
+.about-me, .work-history {
     display: flex;
     margin: 40px 50px;
+    color: #47476b;
+}
+
+span {
+    width: 110px;
+}
+
+.contact-me {
+    display: flex;
+    margin: 40px 10px 40px 50px;
     color: #47476b;
 }
 
@@ -92,23 +103,15 @@ nav {
     height: 950px;
 }
 
-.contact-me {
-    margin-left: 40px;
-}
-
 .about-me-title, .work-history-title, .contact-me-title {
 display: flex;
 flex-wrap: wrap;
 height: 158px;
-width: 131px;
+/* width: 131px; */
 font-size: 2rem;
 font-weight: bold;
 border-right: 5px #47476b solid;
 padding-right: 25px;
-}
-
-.work-history-title {
-    padding-left: 8px;
 }
 
 .about-me-description, .work-history-projects, .contact-me-description {
@@ -150,7 +153,7 @@ padding-right: 25px;
 }
 
 .about-me-description {
-    padding-left: 5px;
+    padding-left: 25px;
 }
 
 .contact-me-description {
@@ -158,7 +161,7 @@ padding-right: 25px;
 }
 
 .contact-me-title {
-    padding-right: 15px;
+    padding-right: 25px;
 }
 
 .leblanc-bbq {
@@ -209,6 +212,14 @@ padding-right: 25px;
 .contact-me-items {
     display: flex;
     align-items:flex-end;
+    text-decoration: none;
+}
+
+.contact-me-items a {
+    display: flex;
+    align-items:flex-end;
+    text-decoration: none;
+    color: #47476b;
 }
 
 .contact-me-items li {
@@ -264,7 +275,7 @@ padding-right: 25px;
 }
 
 @media screen and (max-width: 600px){
-    .text-overlay, .joke-teller-overlay, .links, .contact-me-items, .about-me-description, .about-me-title, .work-history-title, .contact-me-title, .name-block {
+    .text-overlay, .joke-teller-overlay, .contact-me-items, .about-me-description, .about-me-title, .work-history-title, .contact-me-title, .name-block {
       font-size: .6em;
     }
 }
@@ -293,6 +304,18 @@ padding-right: 25px;
     margin-left: 15px;
     font-weight: bold;
 }
+}
+
+@media screen and (max-width: 610px) {
+    .links li {
+        font-size: 1.1em;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .links li {
+        font-size: 1em;
+    }
 }
 
 @media screen and (max-width: 420px){
