@@ -355,7 +355,7 @@ padding-right: 25px;
 @media screen and (max-width: 420px){
     .links li {
       font-size: .3em;
-        margin: 5px;
+        margin: 2px;
         padding-bottom: 0px;
     }
 }
