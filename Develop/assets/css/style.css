@@ -111,7 +111,12 @@ height: 158px;
 font-size: 2rem;
 font-weight: bold;
 border-right: 5px #47476b solid;
-padding-right: 25px;
+padding-right: 18px;
+}
+
+.title-container {
+    display: flex;
+    justify-content:flex-end;
 }
 
 .about-me-description, .work-history-projects, .contact-me-description {
@@ -158,6 +163,7 @@ padding-right: 25px;
 
 .contact-me-description {
     width: 100%;
+    margin: 10px;
 }
 
 .contact-me-title {
@@ -211,13 +217,15 @@ padding-right: 25px;
 
 .contact-me-items {
     display: flex;
-    align-items:flex-end;
+    align-items:center;
+    justify-content: space-between;
     text-decoration: none;
 }
 
 .contact-me-items a {
     display: flex;
-    align-items:flex-end;
+    justify-content: center;
+    align-items:center;
     text-decoration: none;
     color: #47476b;
 }
