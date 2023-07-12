@@ -228,11 +228,12 @@ padding-right: 18px;
 
 /* Media Queries */
 
-@media screen and (max-width: 1000px){
+/* @media screen and (max-width: 1000px){
     .text-overlay, .joke-teller-overlay, .links, .contact-me-items, .about-me-description, .name-block {
-      font-size: .8em;
+      font-size: 1.5em;
+
     }
-}
+} */
 
 @media screen and (max-width: 1000px){
     .work-history {
@@ -262,9 +263,15 @@ padding-right: 18px;
 }
 
 @media screen and (max-width: 600px){
-    .text-overlay, .joke-teller-overlay, .contact-me-items, .about-me-description, .name-block {
+    .text-overlay, .joke-teller-overlay, .contact-me-items, .about-me-description {
       font-size: .8em;
     }
+}
+
+@media screen and (max-width: 600px){
+.name-block{
+    font-size: 1.1em;
+}
 }
 
 @media screen and (max-width: 600px) {
