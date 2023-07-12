@@ -64,7 +64,6 @@ nav {
     width: 150px;
     height: 150px;
     padding: 10px;
-    margin-top: -210px;
 }
 
 .self-image-container {
@@ -115,6 +114,12 @@ padding-right: 18px;
     width: 100%;
 }
 
+.banner-image {
+    background-image: url(../images/banner3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .text-overlay {
     position: absolute;
     bottom: 20px;
@@ -136,6 +141,11 @@ padding-right: 18px;
 .text-overlay p {
     margin: 5px 0px;
     font-size: 60%;
+}
+
+.banner-overlay {
+    bottom: 20px;
+    left: 70%;
 }
 
 .joke-teller-overlay, .quote-generator-overlay, .weatherapi-overlay {
@@ -223,13 +233,13 @@ padding-right: 18px;
     .text-overlay, .joke-teller-overlay, .links, .contact-me-items, .about-me-description {
       font-size: .8em;
     }
+}
 
     @media screen and (max-width: 1000px){
          .name-block {
           font-size: 1.5em;
         }
     }
-}
 
 @media screen and (max-width: 1000px){
     .project2-img, .project3-img, .project4-img, .project5-img {
@@ -283,15 +293,15 @@ padding-right: 18px;
 }
 
 @media screen and (max-width: 600px){
-    .text-overlay, .joke-teller-overlay, .contact-me-items, .about-me-description, .name-block {
+    .text-overlay, .joke-teller-overlay, .contact-me-items, .about-me-description {
       font-size: .8em;
     }
 }
 
 @media screen and (max-width: 600px){
-    .name-block {
-      font-size: 1em;
-    }
+.name-block{
+    font-size: 1.1em;
+}
 }
 
 @media screen and (max-width: 600px) {
