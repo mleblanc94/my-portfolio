@@ -228,13 +228,6 @@ padding-right: 18px;
 
 /* Media Queries */
 
-/* @media screen and (max-width: 1000px){
-    .text-overlay, .joke-teller-overlay, .links, .contact-me-items, .about-me-description, .name-block {
-      font-size: 1.5em;
-
-    }
-} */
-
 @media screen and (max-width: 1000px){
     .work-history {
       height: 760px;
